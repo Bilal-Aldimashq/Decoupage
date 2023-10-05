@@ -24,13 +24,14 @@ _______________
 ___________
 Réseaux: 172.16.1.0/24      
 Le Pôle informatique: 50 équipements au total: 2^6 = 64-2 ( Adressage réseaux et diffusion)= 62; CIDR= 32-6= 26     
+Le Pôle Administratif: 20 équipements au total: 2^5= 32-2= 30; CIDR= 32-5= 27    
+Le Pôle Technicien: 15 équipements au total: 2^5= 32-2= 30; CIDR= 32-5= 27    
 Le Pôle développement: 12 équipements au total: 2^4 = 16-2= 14; CIDR= 32-4= 28  
-Le Pôle Administratif: 20 équipements au total: 2^5= 30-2= 28; CIDR= 32-5= 27   
-Le Pôle Technicien: 15 équipements au total: 2^5= 30-2= 28; CIDR= 32-5= 27    
 
-|  Pôles | Adresse réseaux | Adresse de broadcast | Adresse de début de plage | Adresse de fin de plage|
+
+ |  Pôles | Adresse réseaux | Adresse de broadcast | Adresse de début de plage | Adresse de fin de plage|
 |:--------------------:|:---------------:|:--------------------:|:-------------------------:|:----------------------:|
 |**Pôle informatique** | 172.16.1.0/26   |  172.16.1.63   |        172.16.1.1   |     172.16.1.62   |
-|**Pôle dévelloppement**  | 172.16.1.64/28  | 172.16.1.79  |    172.16.1.65   |    172.16.1.78  |
-|**Pôle administratif**  | 172.16.1.80/27  | 172.16.1.111 |  172.16.1.81  |    172.16.1.110  |
-|**Pôle technicien**   | 172.16.1.112/27  |  172.16.1.143  | 172.16.1.113  |   172.16.1.142  |
+|**Pôle administratif**  | 172.16.1.64/27  | 172.16.1.95  |    172.16.1.65   |    172.16.1.94  |
+|**Pôle technicien**  | 172.16.1.95/27  | 172.16.1.127 |  172.16.1.96  |    172.16.1.126  |
+|**Pôle développement**   | 172.16.1.128/28  |  172.16.1.143  | 172.16.1.129  |   172.16.1.142  |
