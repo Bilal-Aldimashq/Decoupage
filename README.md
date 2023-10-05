@@ -1,6 +1,6 @@
 # Découpage réseaux
 _______
-###Découpage réseaux symétrique
+### Découpage réseaux symétrique
 _______
 Réseaux: 172.16.1.0/24    
 Le Pôle informatique: 50 équipements au total; Découpage symétrique donc on se base sur le plus grand sous réseaux    
