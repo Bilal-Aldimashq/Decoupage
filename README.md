@@ -1,5 +1,7 @@
 # Découpage réseaux
 _______
+- Découpage asymétrique
+  
 ### Découpage réseaux symétrique
 _______
 Réseaux: 172.16.1.0/24    
